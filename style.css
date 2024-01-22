@@ -1,12 +1,51 @@
 body {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #3498db;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  flex-direction: column;
-}
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    flex-direction: column;
+  }
+ /* a{
+    align-items: center;
+    justify-content: center;
+    background-image: url('asset/dimanaalfian.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 1000px;
+    flex-direction: column;
+ }  */
+
+    a { font: 14px sans-serif; color: #0066CC; text-decoration: none; }
+
+#fixed { position: relative; float: left; }
+#fluid { position: relative; }
+
+#fixed a { position: absolute; background-color: rgba(0, 0, 0, 0.5); }
+#fluid a { position: absolute; background-color: rgba(0, 0, 0, 0.5); }
+
+#fixed img { vertical-align: bottom; }
+#fluid img { display: block; ; width: 100%; height: auto; }
+
+.clear { clear: both; }
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {background-color: #04AA6D;} /* Green */
+  .button2 {background-color: #008CBA;} /* Blue */
