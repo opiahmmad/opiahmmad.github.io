@@ -3,13 +3,41 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3498db;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+    background-color: orange;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 20px;
     flex-direction: column;
   }
+
+  body h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+  }
+  body h2{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px 10px 50% 50%;
+  }
+
+  
+
+ 
  /* a{
     align-items: center;
     justify-content: center;
@@ -34,18 +62,54 @@ body {
 #fluid img { display: block; ; width: 100%; height: auto; }
 
 .clear { clear: both; }
-
-.button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+  
+  /* .button1 {background-color: #04AA6D;} /* Green */
+  /* .button2 {background-color: #008CBA;} Blue */ */
+  
+  .title {
+    color: grey;
+    font-size: 18px;
   }
   
-  .button1 {background-color: #04AA6D;} /* Green */
-  .button2 {background-color: #008CBA;} /* Blue */
+  /* button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+	 margin: 4px 2px;
+    cursor: pointer;
+  }
+   */
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .buble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    border-radius: 25px 25px 25px 25px ;
+  }
+
+  .buble p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    border-radius: 30px 30px 30px 30px ;
+  }

@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    display: flex;
+    align-items: Left;
+    justify-content: left;
+    background-color: orange;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+  } 
+
+h1{
+    background-color: black;
+    padding: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: grid;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
