@@ -42,5 +42,32 @@
   }
 
   body {
-    background-color: orange;
+    background-color: #ef6817;
   }
+
+  nav {
+    width: 100%;
+}
+
+.warpNav {
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 80px;
+    flex-wrap: wrap;
+}
+
+nav h1 {
+    color: #ef6817;
+}
+
+.bntNav a {
+    text-decoration: none;
+    color: #ef6817;
+}
+
+.bntNav {
+    display: flex;
+    gap: 30px;
+}
