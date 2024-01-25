@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./tebakFredi.js"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Tebak Kata</h1>
+        bantu pilihin pemimpin yang gua mau dong bingung nih !!
+        <p> <img src="asset/fredi.png" alt="fredi" width="15%"></p>
+       
+        <p>
+            <b>Hint:</b> Politik Indonesia
+        </p>
+        <p id="displayWord"></p>
+        <p>Guess one letter:
+            <input type="text" maxlength="1" id="letter-input">
+        </p>
+        <button onclick="guessLetter()">
+            Submit
+        </button>
+        <button onclick="document.location='index.html'">
+            HOME
+        </button>
+    </div>
+</body>
+</html>
