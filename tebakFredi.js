@@ -65,7 +65,9 @@ function guessLetter() {
 
     // Check if all letters have been guessed 
     if (allLettersGuessed) {
-        alert("Congratulations! Jawaban lu benar");
-    }
+        window.confirm("Congratulations! Jawaban lu benar")
+        {
+            window.open('awikwok2.html', '_blank')
+        }
+    } 
 }
-
